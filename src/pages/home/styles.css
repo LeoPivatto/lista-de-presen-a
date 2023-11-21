@@ -1,0 +1,86 @@
+.container {
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    font-family: sans-serif;
+    
+}
+
+.container header{
+    width: 50%;
+    margin: 20px 0 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container header img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.container header div{
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+
+.container input{
+   width: 50%;
+   border: rgb(28, 28, 28);
+   border-radius: 5px;
+   font-size: 18px;
+   box-sizing: border-box;border: 10px;
+   padding: 20px 15px
+    
+}
+
+.container button{
+    display: block;
+   
+    width: 50%; 
+    padding: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+    background-color: rgb(78, 29, 116);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+
+.card{
+    height: 100px;
+    width: 50%;
+    color: white;
+    background-color: blueviolet;
+    display: flex;
+    border-radius: 12px;
+    justify-content: space-between;
+     padding: 0 12px;
+    margin: 12px;
+    align-items: center;
+}
+
+strong, small{
+    font-family: sans-serif;
+}
+
+strong{
+    font-size: 18px;
+
+}
+
+small{
+    font-size: 13px;
+}
